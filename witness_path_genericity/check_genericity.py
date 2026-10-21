@@ -17,7 +17,7 @@ import numpy as np
 from scipy.optimize import root
 
 mp.mp.dps = 40
-OUT = os.path.join('H-E_witness_path_genericity', 'output')
+OUT = os.path.join('witness_path_genericity', 'output')
 
 
 def pi_vec(z):

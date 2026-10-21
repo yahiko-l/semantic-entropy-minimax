@@ -10,7 +10,7 @@ import os
 import mpmath as mp
 import numpy as np
 
-OUT = os.path.join("H-B_moment_preservation", "output")
+OUT = os.path.join("moment_preservation", "output")
 os.makedirs(OUT, exist_ok=True)
 
 N_DRAWS = 200

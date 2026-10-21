@@ -18,7 +18,7 @@ from multiprocessing import Pool
 
 import numpy as np
 
-OUT = os.path.join('H-F_entropy_risk', 'output')
+OUT = os.path.join('entropy_risk', 'output')
 K = 3
 Q = 0.5
 JUDGES = {'homogeneous': (np.array([1.0, 1.0, 1.0]), K),

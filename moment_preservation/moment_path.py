@@ -13,7 +13,7 @@ import mpmath as mp
 import numpy as np
 
 mp.mp.dps = 80
-OUT = os.path.join('H-B_moment_preservation', 'output')
+OUT = os.path.join('moment_preservation', 'output')
 
 
 def S(v, th, w):

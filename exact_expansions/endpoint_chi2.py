@@ -17,7 +17,7 @@ import mpmath as mp
 import numpy as np
 
 mp.mp.dps = 60
-OUT = os.path.join('H-C_exact_expansions', 'output')
+OUT = os.path.join('exact_expansions', 'output')
 D = 12
 NMAX = 7
 Q = mp.mpf(1) / 3
@@ -50,7 +50,7 @@ def binom_series(j, x):
 
 
 def witness():
-    wit = json.load(open(os.path.join('H-B_moment_preservation', 'output', 'moment_path.json')))['K3']['witness']
+    wit = json.load(open(os.path.join('moment_preservation', 'output', 'moment_path.json')))['K3']['witness']
     w = [mp.mpf(x) for x in wit['w']]
     th = [mp.mpf(x) for x in wit['theta']]
     thp = [mp.mpf(x) for x in wit['theta_prime']]

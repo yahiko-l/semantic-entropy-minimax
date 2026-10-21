@@ -22,7 +22,7 @@ from fractions import Fraction as Fr
 
 import sympy as sp
 
-OUT = os.path.join('H-C_exact_expansions', 'output')
+OUT = os.path.join('exact_expansions', 'output')
 D = 12
 NMAX = 7
 

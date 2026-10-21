@@ -10,8 +10,8 @@ import os
 from fractions import Fraction as Fr
 from math import factorial
 
-OUT = os.path.join('H-E_witness_path_genericity', 'output')
-WIT = json.load(open(os.path.join('H-B_moment_preservation', 'output', 'moment_path.json')))['K3']['witness']
+OUT = os.path.join('witness_path_genericity', 'output')
+WIT = json.load(open(os.path.join('moment_preservation', 'output', 'moment_path.json')))['K3']['witness']
 W = [Fr(x) for x in WIT['w']]
 A1, A2, A3 = (1 / x for x in W)
 

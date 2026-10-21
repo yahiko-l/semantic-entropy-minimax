@@ -11,8 +11,8 @@ import os
 
 import numpy as np
 
-OUT = os.path.join('H-D_modulus_and_variance', 'output')
-WIT = json.load(open(os.path.join('H-B_moment_preservation', 'output', 'moment_path.json')))['K3']['witness']
+OUT = os.path.join('modulus_and_variance', 'output')
+WIT = json.load(open(os.path.join('moment_preservation', 'output', 'moment_path.json')))['K3']['witness']
 W = np.array([float(x) for x in WIT['w']])
 K, M = 3, 5
 U = W.max()

@@ -14,7 +14,7 @@ import networkx as nx
 import numpy as np
 from networkx.algorithms.isomorphism import GraphMatcher
 
-OUT = os.path.join('H-C_exact_expansions', 'output')
+OUT = os.path.join('exact_expansions', 'output')
 
 
 def classes(n):

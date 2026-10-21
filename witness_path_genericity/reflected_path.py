@@ -11,9 +11,9 @@ import os
 import mpmath as mp
 
 mp.mp.dps = 50
-OUT = os.path.join('H-E_witness_path_genericity', 'output')
-MOD = json.load(open(os.path.join('H-D_modulus_and_variance', 'output', 'modulus.json')))
-WIT = json.load(open(os.path.join('H-B_moment_preservation', 'output', 'moment_path.json')))['K3']['witness']
+OUT = os.path.join('witness_path_genericity', 'output')
+MOD = json.load(open(os.path.join('modulus_and_variance', 'output', 'modulus.json')))
+WIT = json.load(open(os.path.join('moment_preservation', 'output', 'moment_path.json')))['K3']['witness']
 K = 3
 M = 2 * K - 1
 W = [mp.mpf(x) for x in WIT['w']]
