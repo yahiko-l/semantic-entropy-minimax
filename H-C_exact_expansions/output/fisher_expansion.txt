@@ -1,0 +1,12 @@
+P1 ker1        dw=['-8829/3400', '1', '0'] | (a) True (b) True (c) True (d) True c85=5.480338e-04 pred=5.480338e-04
+P1 ker2        dw=['-652/2125', '0', '1'] | (a) True (b) True (c) True (d) True c85=8.794374e-05 pred=8.794374e-05
+P1 ker1+2ker2  dw=['-54577/17000', '1', '2'] | (a) True (b) True (c) True (d) True c85=1.777953e-03 pred=1.777953e-03
+P1 control_S1S2 low orders zero True, c43=7.471527e-01 pred=7.471527e-01 exact True
+P2 ker1        dw=['-12299/3744', '1', '0'] | (a) True (b) True (c) True (d) True c85=6.047798e-01 pred=6.047798e-01
+P2 ker2        dw=['-14575/9984', '0', '1'] | (a) True (b) True (c) True (d) True c85=1.194710e-01 pred=1.194710e-01
+P2 ker1+2ker2  dw=['-92921/14976', '1', '2'] | (a) True (b) True (c) True (d) True c85=2.157865e+00 pred=2.157865e+00
+P2 control_S1S2 low orders zero True, c43=1.475839e+00 pred=1.475839e+00 exact True
+P3 ker1        dw=['-81/88', '1', '0'] | (a) True (b) True (c) True (d) True c85=1.819040e+00 pred=1.819040e+00
+P3 ker2        dw=['-1413/4576', '0', '1'] | (a) True (b) True (c) True (d) True c85=6.521880e-09 pred=6.521880e-09
+P3 ker1+2ker2  dw=['-3519/2288', '1', '2'] | (a) True (b) True (c) True (d) True c85=1.819476e+00 pred=1.819476e+00
+P3 control_S1S2 low orders zero True, c43=5.373198e-01 pred=5.373198e-01 exact True

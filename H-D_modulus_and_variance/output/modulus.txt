@@ -1,0 +1,11 @@
+w = [0.8187472594944942, 0.4532105734559928, 1.4478413485015227], a = [1.2213781339767948, 2.2064798541093635, 0.6906834101919892]
+A = 4.118541, U = 1.447841, gamma = 0.294418, C1 = 50.8999, rho = 0.02609, d0 = 0.006295, tau = 0.012589, beta = 0.006295, eps1 = 6.220e-14, C2 = 4.1580e+05
+case constants: I_interior = 3308, II_D_ge_d0 = 3.017e+04, II_eps_gt_eps1 = 480.9, II_small_Theta = 2.172e+04, II_large_Theta = 1.576e+04, eps_gt_1 = 1.099
+C_3(w) = 3.017e+04
+random pairs: n = 200000, n_eps_ge_1e9 = 199997, L1_sign_fail = 0, L1_ibp_max_rel_err = 9.536e-06, L1_bound_fail = 0, L1_max_r = 4, L2_max_ratio = 1.572, L3_max_gammaD_over_W1 = 0.7087, T_max_ratio = 2.069, L4_n = 73019, L4_separate_fail = 0, L4_max_pairs = 2, L4_min_gap = 0.0126, L4_gap_zero_fail = 0
+L4 regime, generic (mpmath, eps <= eps1): n = 197, max W1/eps^(1/3) = 4.924e-08 (C2 = 4.158e+05), max W1/eps^(1/2) = 9.099e-06, max |dH|/eps^(1/5) = 9.23e-10
+L4 regime, vertex_split (mpmath, eps <= eps1): n = 300, max W1/eps^(1/3) = 0.008406 (C2 = 4.158e+05), max W1/eps^(1/2) = 13.47, max |dH|/eps^(1/5) = 4.314e-05
+L4 regime, boundary_pair_flip (mpmath, eps <= eps1): n = 300, max W1/eps^(1/3) = 1.743 (C2 = 4.158e+05), max W1/eps^(1/2) = 1858, max |dH|/eps^(1/5) = 0.01977
+reflected pair phi = 0.915606 (X1 = -1.3e-51, X3 = -1.4e-51): L = -0.202887, X5 = -2.106245e-01, limit ratio = 0.482365; series s=1e-01: max|dS2..4| = 1.7e-52, ratio = 0.482368; s=1e-02: max|dS2..4| = 2.1e-53, ratio = 0.482365; s=1e-03: max|dS2..4| = 6.7e-52, ratio = 0.482365; s=1e-04: max|dS2..4| = 6.7e-52, ratio = 0.482365; s=1e-05: max|dS2..4| = 6.7e-52, ratio = 0.482365
+endpoint witness (searched pair): limit ratio |dH/s| / |dS5(1)|^(1/5) = 1.375925
+adversarial search: T: 2.283937 at theta = [0.0, 1.0, 0.0], theta' = [0.5735, 0.08199, 0.3445]; L2: 1.738730 at theta = [0.52693, 0.17508, 0.29799], theta' = [0.00219, 0.63659, 0.36123]; L3: 0.713136 at theta = [0.0685, 0.91891, 0.01259], theta' = [0.50865, 0.12375, 0.3676]

@@ -1,0 +1,53 @@
+[K3] searched pair theta = [0.61601883 0.36999285 0.01398831], theta' = [0.4235867  0.19688391 0.37952939]; w0 = array([0.81874726, 0.45321057, 1.44784135])
+[K3] refined: residual = 5.27e-82; theta = ['0.616018831861466', '0.369992854314108', '0.0139883138244262']; theta' = ['0.423586702516747', '0.196883909343866', '0.379529388139387']
+[K3] Delta S_5(1) = -0.000587673872009; Delta H(s)/s at s=1e-8 = -0.310757837646; H(theta) = 0.72604436, H(theta') = 1.0515207
+[K3] mu = 0.242804406535; max |X_j - X'_j| (j <= 4) = 2.6355e-82; Delta X_5 = 0.000587673872009
+[K3] path: a_min = 0.69068341, a_max = 2.2064799, max|x| = 0.30669393, max imag part of roots = 0.0
+[K3] endpoint error t=0: 1.33e-80, t=1: 1.02e-80; rank of class c at t=0: [2, 1, 0], at t=1: [1, 0, 2]
+[K3] s = 1.0: min theta = 0.0139883, max w = 1.44784, max rel drift S_1..S_4 = 9.79e-81
+[K3] s = 0.1: min theta = 0.15233, max w = 1.44784, max rel drift S_1..S_4 = 5.57e-81
+[K3] s = 0.03162: min theta = 0.16284, max w = 1.44784, max rel drift S_1..S_4 = 5.74e-81
+[K3] s = 0.01: min theta = 0.166164, max w = 1.44784, max rel drift S_1..S_4 = 5.75e-81
+[K3] s = 0.003162: min theta = 0.167215, max w = 1.44784, max rel drift S_1..S_4 = 5.75e-81
+[K3] s = 0.001: min theta = 0.167547, max w = 1.44784, max rel drift S_1..S_4 = 5.75e-81
+[K3] (v,e)=(2,1) tree        sup|dm/dt| in [1.153e-81, 1.515e-81]  (constant tree moment)
+[K3] (v,e)=(3,2) tree        sup|dm/dt| in [5.930e-82, 7.083e-82]  (constant tree moment)
+[K3] (v,e)=(3,3) unicyclic   sup|dm/dt| in [5.193e-05, 5.883e-03]  order 1.0248 (pred 1)
+[K3] (v,e)=(4,3) tree        sup|dm/dt| in [1.647e-82, 2.347e-82]  (constant tree moment)
+[K3] (v,e)=(4,4) unicyclic   sup|dm/dt| in [1.682e-05, 2.035e-03]  order 1.0378 (pred 1)
+[K3] (v,e)=(4,5) multicyclic sup|dm/dt| in [1.086e-02, 1.298e-02]  order -0.0301 (pred 0)
+[K3] (v,e)=(4,6) multicyclic sup|dm/dt| in [3.275e-02, 4.086e-02]  order -0.0497 (pred 0)
+[K3] (v,e)=(5,4) tree        sup|dm/dt| in [5.877e-19, 5.877e-09]  order 5.0000 (pred 5)
+[K3] (v,e)=(5,5) unicyclic   sup|dm/dt| in [5.109e-06, 6.616e-04]  order 1.0513 (pred 1)
+[K3] (v,e)=(5,6) multicyclic sup|dm/dt| in [2.515e-03, 3.402e-03]  order -0.0047 (pred 0)
+[K3] (v,e)=(5,7) multicyclic sup|dm/dt| in [8.321e-03, 9.910e-03]  order -0.0279 (pred 0)
+[K3] (v,e)=(5,8) multicyclic sup|dm/dt| in [1.886e-02, 2.215e-02]  order -0.0333 (pred 0)
+[K3] (v,e)=(5,9) multicyclic sup|dm/dt| in [3.704e-02, 4.323e-02]  order -0.0349 (pred 0)
+[K3] (v,e)=(5,10) multicyclic sup|dm/dt| in [6.757e-02, 7.862e-02]  order -0.0355 (pred 0)
+[K3] (v,e)=(6,5) tree        sup|dm/dt| in [8.564e-19, 8.864e-09]  order 5.0068 (pred 5)
+[K3] (v,e)=(6,6) unicyclic   sup|dm/dt| in [1.489e-06, 2.069e-04]  order 1.0651 (pred 1)
+[K3] (v,e)=(6,7) multicyclic sup|dm/dt| in [5.817e-04, 9.703e-04]  order 0.0197 (pred 0)
+[K3] (v,e)=(6,8) multicyclic sup|dm/dt| in [1.948e-03, 2.556e-03]  order -0.0063 (pred 0)
+[K3] (v,e)=(6,9) multicyclic sup|dm/dt| in [4.429e-03, 5.456e-03]  order -0.0129 (pred 0)
+[K3] (v,e)=(6,10) multicyclic sup|dm/dt| in [8.711e-03, 1.049e-02]  order -0.0151 (pred 0)
+[K3] (v,e)=(6,11) multicyclic sup|dm/dt| in [1.590e-02, 1.907e-02]  order -0.0161 (pred 0)
+[K3] (v,e)=(6,12) multicyclic sup|dm/dt| in [2.775e-02, 3.321e-02]  order -0.0166 (pred 0)
+[K3] (v,e)=(6,13) multicyclic sup|dm/dt| in [4.700e-02, 5.615e-02]  order -0.0170 (pred 0)
+[K3] (v,e)=(6,14) multicyclic sup|dm/dt| in [7.790e-02, 9.296e-02]  order -0.0173 (pred 0)
+[K3] (v,e)=(6,15) multicyclic sup|dm/dt| in [1.270e-01, 1.515e-01]  order -0.0175 (pred 0)
+[K3] (v,e)=(7,6) tree        sup|dm/dt| in [7.281e-19, 7.805e-09]  order 5.0138 (pred 5)
+[K3] (v,e)=(7,7) unicyclic   sup|dm/dt| in [4.222e-07, 6.303e-05]  order 1.0793 (pred 1)
+[K3] (v,e)=(7,8) multicyclic sup|dm/dt| in [1.344e-04, 2.755e-04]  order 0.0432 (pred 0)
+[K3] (v,e)=(7,9) multicyclic sup|dm/dt| in [4.558e-04, 7.124e-04]  order 0.0149 (pred 0)
+[K3] (v,e)=(7,10) multicyclic sup|dm/dt| in [1.040e-03, 1.509e-03]  order 0.0073 (pred 0)
+[K3] (v,e)=(7,11) multicyclic sup|dm/dt| in [2.048e-03, 2.889e-03]  order 0.0046 (pred 0)
+[K3] (v,e)=(7,12) multicyclic sup|dm/dt| in [3.742e-03, 5.204e-03]  order 0.0033 (pred 0)
+[K3] (v,e)=(7,13) multicyclic sup|dm/dt| in [6.534e-03, 9.013e-03]  order 0.0026 (pred 0)
+[K3] (v,e)=(7,14) multicyclic sup|dm/dt| in [1.107e-02, 1.519e-02]  order 0.0021 (pred 0)
+[K3] (v,e)=(7,15) multicyclic sup|dm/dt| in [1.835e-02, 2.507e-02]  order 0.0017 (pred 0)
+[K3] (v,e)=(7,16) multicyclic sup|dm/dt| in [2.992e-02, 4.076e-02]  order 0.0014 (pred 0)
+[K3] (v,e)=(7,17) multicyclic sup|dm/dt| in [4.817e-02, 6.547e-02]  order 0.0012 (pred 0)
+[K3] (v,e)=(7,18) multicyclic sup|dm/dt| in [7.677e-02, 1.041e-01]  order 0.0009 (pred 0)
+[K3] (v,e)=(7,19) multicyclic sup|dm/dt| in [1.213e-01, 1.642e-01]  order 0.0008 (pred 0)
+[K3] (v,e)=(7,20) multicyclic sup|dm/dt| in [1.904e-01, 2.573e-01]  order 0.0006 (pred 0)
+[K3] (v,e)=(7,21) multicyclic sup|dm/dt| in [2.969e-01, 4.009e-01]  order 0.0004 (pred 0)

@@ -1,0 +1,17 @@
+Phi_3(0,1,2) = -0.69314718055994530942, -log 2 = -0.69314718055994530942
+K = 4: Phi_K(y, T)·T/(-Phi_(K-1)(y)) at T = 10^4, 10^5, 10^6: 1.000100, 1.000010, 1.000001; Phi_K at T = 10^4: 6.9321631e-5
+K = 5: Phi_K(y, T)·T/(-Phi_(K-1)(y)) at T = 10^5, 10^6, 10^7: 1.000010, 1.000001, 1.000000; Phi_K at T = 10^5: -6.9322322e-10
+K = 6: Phi_K(y, T)·T/(-Phi_(K-1)(y)) at T = 10^6, 10^7, 10^8: 1.000001, 1.000000, 1.000000; Phi_K at T = 10^6: 6.9322391e-16
+K = 7: Phi_K(y, T)·T/(-Phi_(K-1)(y)) at T = 10^7, 10^8, 10^9: 1.000000, 1.000000, 1.000000; Phi_K at T = 10^7: -6.9322398e-23
+K = 8: Phi_K(y, T)·T/(-Phi_(K-1)(y)) at T = 10^8, 10^9, 10^10: 1.000000, 1.000000, 1.000000; Phi_K at T = 10^8: 6.9322399e-31
+K = 3: Phi_K(y), y_j = j(j+1)/2: -0.31825708; h^(K-1) Lambda(x(h))/Phi_K at h = 1e-2, 1e-4, 1e-6: 0.99992349, 0.99999999, 1.00000000
+K = 4: Phi_K(y), y_j = j(j+1)/2: 0.040896023; h^(K-1) Lambda(x(h))/Phi_K at h = 1e-2, 1e-4, 1e-6: 0.99999621, 1.00000000, 1.00000000
+K = 5: Phi_K(y), y_j = j(j+1)/2: -0.003992718; h^(K-1) Lambda(x(h))/Phi_K at h = 1e-2, 1e-4, 1e-6: 0.99999973, 1.00000000, 1.00000000
+K = 6: Phi_K(y), y_j = j(j+1)/2: 0.00025442062; h^(K-1) Lambda(x(h))/Phi_K at h = 1e-2, 1e-4, 1e-6: 0.99999997, 1.00000000, 1.00000000
+random a, K = 3: 2000 draws, real zero directions found by multistart per draw {'1': 1445, '3': 555}; min squared-coordinate gap 3.411e-05, min |x_c| 9.402e-06, max |a/|a| - alpha/|alpha|| 1.01e-12; min over draws of max_x |L(x)|/A 9.160e-07; draws with no zero or all |L| < 1e-6: 1; min gamma 8.974e-05
+   worst draw (smallest max |L|): a = [0.876929, 0.876839, 4.499736], gamma = 8.974e-05, real zero directions found 1, g(w) = -9.640e-05
+random a, K = 4: 400 draws, real zero directions found by multistart per draw {'1': 142, '3': 140, '5': 72, '7': 19, '9': 27}; min squared-coordinate gap 1.718e-04, min |x_c| 4.124e-04, max |a/|a| - alpha/|alpha|| 2.17e-13; min over draws of max_x |L(x)|/A 1.223e-03; draws with no zero or all |L| < 1e-6: 0; min gamma 6.145e-04
+   worst draw (smallest max |L|): a = [0.45649, 3.353183, 3.866733, 0.254486], gamma = 5.706e-02, real zero directions found 1
+random a, K = 5: 150 draws, real zero directions found by multistart per draw {'1': 15, '3': 34, '5': 18, '7': 24, '9': 20, '11': 6, '13': 6, '15': 6, '17': 3, '19': 3, '21': 6, '23': 4, '25': 1, '29': 1, '33': 3}; min squared-coordinate gap 3.436e-05, min |x_c| 7.431e-05, max |a/|a| - alpha/|alpha|| 2.06e-11; min over draws of max_x |L(x)|/A 3.079e-04; draws with no zero or all |L| < 1e-6: 0; min gamma 1.632e-05
+   worst draw (smallest max |L|): a = [1.063135, 0.699152, 0.306656, 0.20053, 3.062215], gamma = 5.733e-02, real zero directions found 1
+gamma = 0 example a = (1, 2, 3): x = (1, 1, -1)/sqrt(3) gives X_1 = -2.2e-16, X_3 = -5.6e-17 with a repeated coordinate

@@ -1,0 +1,11 @@
+F(0.829) < 0: True
+F(0.831) > 0: True
+v(0.829) < -0.145: True
+v(0.831) > -0.147: True
+a2/a1 < exp(0.6) (series lower bound): True
+a2/a1 > 1 (log positive): True
+a2/a3 > exp(1.16) (series upper bound): True
+a1*0.831*0.6 - a3*1.16 < -0.19: True
+gamma(w) > 0.29: True
+F(0.829) = -1.683706e-03, F(0.831) = 3.207643e-03, gamma = 0.294418, bound on L(x) = -0.192214
+ALL EXACT CHECKS PASS
